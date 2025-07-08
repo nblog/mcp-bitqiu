@@ -1,6 +1,6 @@
-# MCP BitQiu
+# 比特球云盘客户端
 
-A modern Python client for BitQiu cloud storage services.
+A modern Python client for `比特球云盘 (BitQiu cloud)` storage services.
 
 ## Features
 
