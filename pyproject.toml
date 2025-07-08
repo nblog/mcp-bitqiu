@@ -1,0 +1,18 @@
+[project]
+name = "mcp-bitqiu"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.10.1",
+    "pydantic>=2.11.7",
+]
+
+[project.scripts]
+mcp-bitqiu-server = "mcp_bitqiu.mcp_server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
