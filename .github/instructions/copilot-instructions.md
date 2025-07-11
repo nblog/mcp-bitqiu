@@ -122,4 +122,11 @@ if status not in ["active", "inactive"]:  # 容易遗漏更新
 
 ---
 
+## 📄 文档与 README 规范
+- 项目必须包含一份 `README.md`（英文版）
+- 并且同时维护一份 `README.zh-CN.md`（中文版），确保中英文说明内容保持同步
+- 任何对 `README.md` 的更新，都应同步反映到 `README.zh-CN.md`
+
+---
+
 *本文档会根据项目进展和新的偏好持续更新*
